@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+@media screen and (min-width: 0px) {
+    body {
+        margin: 0px;
+        width: 100vw;
+        height: 100vh;
+    }
+    #top-pane {
+        width: 100%;
+        height: 100px;
+        border-bottom: 5px solid black;
+        display: flex;
+    }
+    #left-half {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Overpass';
+        font-weight: 700;
+        background-color: red;
+        color: white;
+        font-size: 40px;
+        border-right: 2px solid white;
+    }
+    #left-half-title {
+        height: 40px;
+    }
+    #left-half-title:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    #right-half {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Overpass';
+        font-weight: 700;
+        background-color: red;
+        color: white;
+        font-size: 40px;
+        border-left: 2px solid white;
+
+    }
+    #right-half-title {
+        height: 40px;
+    }
+    #right-half-title:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    #background-box-1 {
+        width: 100%;
+        height: calc(100vh - 105px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #background-box-2 {
+        width: 100%;
+        height: calc(100vh - 105px);
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    #colour-description-box {
+        width: 600px;
+        height: 100px;
+        background-color: darkblue;
+        color: white;
+        font-family: 'Overpass';
+        font-size: 40px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #background-colour-box {
+        margin-right: 10px;
+    }
+    #hexadecimal-text {
+        color: yellow;
+    }
+    .fa-copy {
+        font-size: 40px;
+        color: white;
+        margin-left: 20px;
+        display: none;
+    }
+    .fa-copy:hover {
+        color: yellow;
+        cursor: pointer;
+    }
+    #para {
+        width: 500px;
+        height: 50px;
+        background-color: darkblue;
+        font-family: 'Overpass';
+        font-size: 16px;
+        color: white;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid black;
+        text-align: center;
+    }
+    #random-btn {
+        height: 40px;
+        width: 300px;
+        border:2px solid black;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-family: 'Overpass';
+        font-weight: 700;
+        font-size: 16px;
+        background-color: darkblue;
+        color: white;
+    }
+    #random-btn:hover {
+        cursor: pointer;
+        background-color: white;
+        color: darkblue;
+    }
+    #hexadecimal-identifier {
+        background-color: darkblue;
+        margin-right: 5px;
+        color: white;
+        font-family: 'Overpass';
+        font-size: 30px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    #inp {
+        height: 40px;
+        border-radius: 10px;
+        font-size: 30px;
+        border: 2px solid black;
+
+    }
+    
+}
