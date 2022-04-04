@@ -91,10 +91,38 @@
         color: white;
         margin-left: 20px;
         display: none;
+        position: absolute;
+        bottom: 25px;
+        left: auto;
+        right: auto;
     }
     .fa-copy:hover {
         color: yellow;
         cursor: pointer;
+    }
+    .clipboard-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        height: 70px;
+        width: 60px;
+    }
+    #speech-bubble {
+        width: 50px;
+        height: 15px;
+        font-size: 12px;
+        background-color: white;
+        color: darkblue;
+        font-family: 'Overpass';
+        display: none;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        border-radius: 5px;
+        transform: translateY(-12px);
     }
     #para {
         width: 500px;

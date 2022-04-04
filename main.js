@@ -91,8 +91,19 @@ random_button.addEventListener('click', () => {
 // the end user likes a color and wants to use it in a coding project, they can click the clipboard 
 // icon to copy the hexadecimal identifier and then paste it into a different window.
 
+const speech_bubble = document.getElementById('speech-bubble');
+
 clipboard1.addEventListener('click', () => {
     navigator.clipboard.writeText(hexadecimal_text.innerText);
+})
+
+function removeBubble() {
+    speech_bubble.style.display = 'none';
+}
+
+clipboard1.addEventListener('click', () => {
+    speech_bubble.style.display = 'flex';
+    setTimeout(removeBubble, 1000);
 })
 
 // The following code is for the 'Simple Hex' page. The idea is that the end user can type in a
