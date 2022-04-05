@@ -113,7 +113,7 @@ clipboard1.addEventListener('click', () => {
 
 const input1 = document.getElementById('inp');
 
-input1.addEventListener('keypress', function(event) {
+input1.addEventListener('keydown', function(event) {
     let user_input = String(input1.value);
     user_input = user_input.toLowerCase();
     user_input = user_input.replace(/\s/g, '');
